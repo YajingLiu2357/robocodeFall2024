@@ -365,4 +365,12 @@ public class BattleRecordInfo implements Serializable, IXmlSerializable {
 	public void setResults(List<BattleResults> results) {
 		this.results = results;
 	}
+
+	public UUID getBattleId() {
+		return battleId;
+	}
+
+	public void setBattleId(UUID battleId) {
+		this.battleId = battleId;
+	}
 }
